@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Basics",
+    "description": "Release of Letraset sheets containing Lorem Ipsum passages, and more recently",
+    "type": "$15",
+    "id": "0"
+  },
+  {
+    "name": "Standard",
+    "description": "Release of Letraset sheets containing Lorem Ipsum passages, and more recently",
+    "type": "$25",
+    "id": "1"
+  },
+  {
+    "name": "Pro care",
+    "description": "Release of Letraset sheets containing Lorem Ipsum passages, and more recently",
+    "type": "$35",
+    "id": "2"
+  }
+]

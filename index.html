@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link type="image/x-icon" href="./assets/logo_vector.svg" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Plants</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header__content">
+            <div class="logo">
+                <div class="logo__image"><img src="./assets/logo_vector.svg" alt="logo"></div>
+                <p class="logo__name">Plants</p>
+            </div>
+            <nav class="navigation">
+                <ul class="menu">
+                <li><a href="#welcome__section" class="menu-item active">Home</a></li>
+                <li><a href="#about__us" class="menu-item">About us</a></li>
+                <li><a href="#service" class="menu-item" >Service</a></li>
+                <li><a href="#prices" class="menu-item" >Price</a></li>
+                <li><a href="#contacts" class="menu-item" >Contacts</a></li>
+            </ul>
+            </nav>
+</div>
+        </div>
+    </header>
+    <main>
+<section class="welcome__section" id = "welcome__section">
+    <div class="wrapper">
+        <div class="welcome__content">
+            <div class="image__welcome">
+                <img src="./assets/leafs.png" alt="leafs">
+            </div>
+            <div class="welcome__description">
+                <h1>We grow <span class="green__text">plants</span> and give you oxygen</h1>
+                <p class="welcome__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <button class="welcome__button"
+                type="button">
+                LEARN MORE
+        </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about__us" id="about__us">
+    <div class="wrapper">
+        <div class="about__us-content">
+            <div class="about-us__content">
+                <h2><span class = "green__text">We are </span><span class="orange__text"> professional experienced</span>  <span class = "green__text">gardeners</span></h2>
+                <p class="about-us__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+            </div>
+            <div class="about-image"><img src="./assets/houseplant 1.jpg" alt="about us"></div>
+        </div>
+    </div>
+</section>
+<section class="service" id="service">
+    <div class="wrapper">
+        <div class="service__content">
+            <div class="services__info">
+                <h2><span class="green__text">Service and our projects</span></h2>
+                <div class="service__buttons">
+                    <button class="service__button" type="button" data-id="Gardens">Gardens</button>
+                    <button class="service__button " type="button" data-id="Lawn">Lawn</button>
+                    <button class="service__button " type="button" data-id="Planting">Planting</button>
+                </div>
+            </div>
+            <div class="services"></div>
+        </div>
+    </div>
+</section>
+<section class="prices" id="prices">
+    <div class="wrapper">
+        <div class="prices__content">
+        <div class="prices__header">
+            <h2>Prices</h2>
+            <h2 class="header_2">Our best <span class = "green__text">gardeners</span> are ready to help you</h2>
+
+        </div>
+        <div class="prices_main">
+            <div class="price_list">
+               <div class="price__basics" data-price="Basics"><div class="un_opened"><p class = "prices">Basics</p><div class="price__button no-clicked"><img alt = "button" src="./assets/button_arrow.svg"></div></div></div>
+                <div class="price__basics" data-price="Standard"><div class="un_opened"><p class = "prices">Standard</p><div class="price__button  no-clicked"><img alt = "button" src="./assets/button_arrow.svg"></div></div></div>
+                <div class="price__basics"  data-price="Pro care"><div class="un_opened"><p class = "prices">Pro care</p><div class="price__button  no-clicked"><img alt = "button" src="./assets/button_arrow.svg"></div></div></div>
+            </div>
+
+            <div class="call-us">
+                <button class="service__button" type="button" id="call-us__button">Contact us</button>
+                <div class = "call-us__image"><img src="./assets/leafs_1.png" alt="leafs"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="contacts" id="contacts">
+    <div class="wrapper">
+        <div class="contacts__content">
+            <h2><span class="green__text"><b>Contact us</b></span></h2>
+            <div class="contacts__part">
+               <div class="girl"> <img alt="girl" src="./assets/girl.png"></div>
+                <div class="select-wrapper">
+                   
+               <div class="select__header"><p class="select__name">City</p><div class="select__button unclicked"><img alt = "button" src="./assets/select__button.svg"></div>
+            </div> 
+            <div class="cities"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer__content">
+                <div class="copyright">
+                    <p class="copyright-item">©</p>
+                    <p class="copyright-item">2022</p>
+                    <p class="copyright-item"><a href="https://github.com/YuumiAYAYA" target="_blank">github</a></p>
+                </div>
+                <div class="rs-school"><a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a></div>
+                <div class="social__media">
+                    <ul class="media">
+                        <li class="media__item"><img src="./assets/inst 1.svg" alt="inst"></li>
+                        <li class="media__item"><img src="./assets/fb 1.svg" alt="fb"></li>
+                        <li class="media__item"><img src="./assets/tw 1.svg" alt="tw"></li>
+                        <li class="media__item"><img src="./assets/pinterest 1.svg" alt="pin"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type = "module" src="./script.js"></script>
+</body>
+</html>
