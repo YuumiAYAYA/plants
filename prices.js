@@ -9,6 +9,7 @@ export default class Price {
     draw (){
 
         const mainPr = document.querySelector(`[data-price="${this.name}"]`);
+     console.log(mainPr)
         const priceContent = document.createElement('div');
         priceContent.classList.add('price__content');
         priceContent.classList.add(`price-${this.id}`);
@@ -26,7 +27,13 @@ export default class Price {
 
         const priceBtn = document.createElement('button');
         priceBtn.classList.add('price-btn');
+        priceBtn.addEventListener('click', ()=>
+        {
+           location.href='#contacts';
+        })
         priceBtn.textContent = "Order";
         priceContent.appendChild(priceBtn);
+
+     
     }
 }

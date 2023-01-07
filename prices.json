@@ -16,5 +16,11 @@
     "description": "Release of Letraset sheets containing Lorem Ipsum passages, and more recently",
     "type": "$35",
     "id": "2"
+  },
+  {
+    "name": "Pro care",
+    "description": "Release of Letraset sheets containing Lorem Ipsum passages, and more recently",
+    "type": "$35",
+    "id": "2"
   }
 ]
